@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+}
+
+#main {
+    margin: auto;
+	text-align: center;
+	width: 40vw;
+}
+
+#content {
+	padding: 1%;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+	border-top: 0.2vw solid;
+	border-left: 0.2vw solid;
+	border-right: 0.2vw solid;
+}
+
+#header {
+    background-color: #6610f2;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 4vw;
+	color: white;
+	box-sizing: border-box;
+}
+
+#footnotes {
+    background-color: #6610f2;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+	color: white;
+	border: 0.2vw solid black;
+	box-sizing: border-box;
+}
+
+input{
+   text-align:center;
+   width: 50%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#content a:link { color: blue; }
+#content a:visited { color: blue; }
+#content a:hover { color: red; }
+#content a:active { color: blue; }
+
+#footnotes a:link { color: cyan; }
+#footnotes a:visited { color: cyan; }
+#footnotes a:hover { color: red; }
+#footnotes a:active { color: cyan; }

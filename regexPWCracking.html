@@ -1,0 +1,40 @@
+<DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>
+		 Passwords
+	</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="main">
+		<div id="header">
+			<h1>
+				Brute Force Password Cracking Estimate
+			</h1>
+		</div>
+		<div id="content">
+			<input type="password" placeholder="Password" id="psw" required> <br>
+			<button type="submit" onclick="crack()" id="button">Get Cracking</button> <br>
+			<button type="submit" onclick="changePower('half')" id="half"> Halve Power </button>
+			<span id="compPower"> 100,000 </span> guesses per second
+			<button type="submit" onclick="changePower('double')" id="double"> Double Power </button> <br> 
+			Max Time to Crack: <span id="timeToCrack"> </span> <br> <br>
+			This shows how long a brute force attack* that tries every combination will take to crack you password. <br>
+			It takes the time based on how long you password is, and what sort of characters you use to make it. <br>
+			Some hackers have computers that can make <a href="https://arstechnica.com/information-technology/2012/12/25-gpu-cluster-cracks-every-standard-windows-password-in-6-hours/"> 350,000,000,000 guesses per second! </a> <br>
+			See how long it will take a secure password to become considerably less secure! <br> 
+			Moore's law states that a computer doubles in power every few years!** <br> <br>
+			
+			Click <a href="dictionaryPWCracking.html">here </a> to see the dictionary atack version of this!
+		</div>
+		<div id="footnotes">
+			*Note that these kinds of attacks are not the most likely to be used. <br>
+			**Moore's law specifically refers to the number of transistors in a microchip. Find out more <a href="https://en.wikipedia.org/wiki/Moore%27s_law"> here! </a>
+		</div>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript" src="passwordcracking.js"></script>
